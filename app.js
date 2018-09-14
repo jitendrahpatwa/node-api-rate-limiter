@@ -11,7 +11,7 @@ app.enable("trust proxy");
 
 const apiLimiter = rateLimit({
   windowMs: 15 * 60 * 1000, // 15 minutes
-  max: 2
+  max: 10
 });
 
 //CORS Middleware
